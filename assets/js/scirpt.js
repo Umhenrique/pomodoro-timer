@@ -4,7 +4,7 @@ let segundos_gasto = document.getElementById('segundos_gasto');
 let minutos_ganho = document.getElementById('minutos_ganho');
 let segundos_ganho = document.getElementById('segundos_ganho');
 var ativador = document.getElementById('ativador');
-var audio = new Audio("/assets/sound_effect/beep.wav");
+var audio = new Audio("assets/sound_effect/beep.wav");
 /*
 Declaracao de variaveis para o controle de tempo
 */
