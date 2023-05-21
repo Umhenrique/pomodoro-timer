@@ -96,6 +96,14 @@ button:hover {
         font-weight: bolder;
         font-size: 40px;
     }
+    .relogio{
+        height: 60vh;
+        width: 80vw;
+    }
+    .relogio div{
+        height: 15vh;
+        width: 20vw;
+    }
 }
 
 @media only screen and (max-height: 720px) {
@@ -103,5 +111,4 @@ button:hover {
         font-weight: bolder;
         font-size: 30px;
     }
-
 }
