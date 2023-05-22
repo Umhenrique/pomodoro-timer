@@ -39,10 +39,6 @@ function ativar() {
 function momentoDeAcao() {
 
     segundos_gasto_interval = setInterval(segundos_gastoTimer, 1000)
-
-    segundos_gasto_value = 0
-    minutos_gasto_value = 0
-    horas_gasto_value = 0
     /* Funcao para controlar o tempo gasto */
     function segundos_gastoTimer() {
         segundos_gasto_value++;
